@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBC9664098C49796BB64DA7 /* Pods_ARMajic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0C7AF40C2C1E0A64B79ABB /* Pods_ARMajic.framework */; };
+		4A36F2B8223D2FD1009F0E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36F2B7223D2FD1009F0E30 /* AppDelegate.swift */; };
+		4A36F2BF223D2FD2009F0E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A36F2BE223D2FD2009F0E30 /* Assets.xcassets */; };
+		4A36F2C2223D2FD2009F0E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A36F2C0223D2FD2009F0E30 /* LaunchScreen.storyboard */; };
+		4A36F2CA223D30E8009F0E30 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36F2C9223D30E8009F0E30 /* GameViewController.swift */; };
+		4A733326223D3FD2009F4257 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733325223D3FD2009F4257 /* Extension.swift */; };
+		4ABB5CB3223F176E0080AE24 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB5CB2223F176E0080AE24 /* art.scnassets */; };
+		4AC1E2D622FB8BE300348149 /* raw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC1E2D022FB8BE300348149 /* raw.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0C7AF40C2C1E0A64B79ABB /* Pods_ARMajic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMajic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A36F2B4223D2FD1009F0E30 /* HDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A36F2B7223D2FD1009F0E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A36F2BE223D2FD2009F0E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A36F2C1223D2FD2009F0E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A36F2C3223D2FD2009F0E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A36F2C9223D30E8009F0E30 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4A733325223D3FD2009F4257 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4ABB5CB2223F176E0080AE24 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4AC1E2D022FB8BE300348149 /* raw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raw.jpg; sourceTree = "<group>"; };
+		857E9F973374E4D235826FA3 /* Pods-ARMajic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMajic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARMajic/Pods-ARMajic.release.xcconfig"; sourceTree = "<group>"; };
+		8E6B1C5623A74AD4D74B9949 /* Pods-ARMajic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMajic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARMajic/Pods-ARMajic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A36F2B1223D2FD1009F0E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBC9664098C49796BB64DA7 /* Pods_ARMajic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084304963A4027911924615C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C7AF40C2C1E0A64B79ABB /* Pods_ARMajic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D29AF57CC4789C97CD5FADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6B1C5623A74AD4D74B9949 /* Pods-ARMajic.debug.xcconfig */,
+				857E9F973374E4D235826FA3 /* Pods-ARMajic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A36F2AB223D2FD1009F0E30 = {
+			isa = PBXGroup;
+			children = (
+				4A36F2B6223D2FD1009F0E30 /* ARMajic */,
+				4A36F2B5223D2FD1009F0E30 /* Products */,
+				3D29AF57CC4789C97CD5FADD /* Pods */,
+				084304963A4027911924615C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A36F2B5223D2FD1009F0E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A36F2B4223D2FD1009F0E30 /* HDS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A36F2B6223D2FD1009F0E30 /* ARMajic */ = {
+			isa = PBXGroup;
+			children = (
+				4A36F2B7223D2FD1009F0E30 /* AppDelegate.swift */,
+				4A36F2BE223D2FD2009F0E30 /* Assets.xcassets */,
+				4ABB5CB2223F176E0080AE24 /* art.scnassets */,
+				4A733325223D3FD2009F4257 /* Extension.swift */,
+				4A36F2C9223D30E8009F0E30 /* GameViewController.swift */,
+				4AC1E2D022FB8BE300348149 /* raw.jpg */,
+				4A36F2C0223D2FD2009F0E30 /* LaunchScreen.storyboard */,
+				4A36F2C3223D2FD2009F0E30 /* Info.plist */,
+			);
+			path = ARMajic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A36F2B3223D2FD1009F0E30 /* ARMajic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A36F2C6223D2FD2009F0E30 /* Build configuration list for PBXNativeTarget "ARMajic" */;
+			buildPhases = (
+				2425AFE96A5747642B2ACBD5 /* [CP] Check Pods Manifest.lock */,
+				4A36F2B0223D2FD1009F0E30 /* Sources */,
+				4A36F2B1223D2FD1009F0E30 /* Frameworks */,
+				4A36F2B2223D2FD1009F0E30 /* Resources */,
+				B3C771F5D7F11ECFCB0CF9AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMajic;
+			productName = ARMajic;
+			productReference = 4A36F2B4223D2FD1009F0E30 /* HDS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A36F2AC223D2FD1009F0E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "Attharva Kulkarni";
+				TargetAttributes = {
+					4A36F2B3223D2FD1009F0E30 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4A36F2AF223D2FD1009F0E30 /* Build configuration list for PBXProject "ARMajic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A36F2AB223D2FD1009F0E30;
+			productRefGroup = 4A36F2B5223D2FD1009F0E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A36F2B3223D2FD1009F0E30 /* ARMajic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A36F2B2223D2FD1009F0E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABB5CB3223F176E0080AE24 /* art.scnassets in Resources */,
+				4AC1E2D622FB8BE300348149 /* raw.jpg in Resources */,
+				4A36F2C2223D2FD2009F0E30 /* LaunchScreen.storyboard in Resources */,
+				4A36F2BF223D2FD2009F0E30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2425AFE96A5747642B2ACBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMajic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C771F5D7F11ECFCB0CF9AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARMajic/Pods-ARMajic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARMajic/Pods-ARMajic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A36F2B0223D2FD1009F0E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A733326223D3FD2009F4257 /* Extension.swift in Sources */,
+				4A36F2CA223D30E8009F0E30 /* GameViewController.swift in Sources */,
+				4A36F2B8223D2FD1009F0E30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A36F2C0223D2FD2009F0E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A36F2C1223D2FD2009F0E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A36F2C4223D2FD2009F0E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A36F2C5223D2FD2009F0E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A36F2C7223D2FD2009F0E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6B1C5623A74AD4D74B9949 /* Pods-ARMajic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2J45EKP3Q;
+				INFOPLIST_FILE = ARMajic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "attharva24-gmail.com.Brain";
+				PRODUCT_NAME = HDS;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A36F2C8223D2FD2009F0E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857E9F973374E4D235826FA3 /* Pods-ARMajic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2J45EKP3Q;
+				INFOPLIST_FILE = ARMajic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "attharva24-gmail.com.Brain";
+				PRODUCT_NAME = HDS;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A36F2AF223D2FD1009F0E30 /* Build configuration list for PBXProject "ARMajic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A36F2C4223D2FD2009F0E30 /* Debug */,
+				4A36F2C5223D2FD2009F0E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A36F2C6223D2FD2009F0E30 /* Build configuration list for PBXNativeTarget "ARMajic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A36F2C7223D2FD2009F0E30 /* Debug */,
+				4A36F2C8223D2FD2009F0E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A36F2AC223D2FD1009F0E30 /* Project object */;
+}

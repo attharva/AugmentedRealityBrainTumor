@@ -1,6 +1,0 @@
-framework module Pods_ARMajic {
-  umbrella header "Pods-ARMajic-umbrella.h"
-
-  export *
-  module * { export * }
-}
